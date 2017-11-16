@@ -1,0 +1,65 @@
+
+body {
+    background-image: url(https://media.giphy.com/media/xTcf0TqeqsUF9juNR6/giphy.gif);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+@font-face {
+font-family: BenguiatStd-Bold;
+    src: url("/home/user/404-page/itc-benguiat-std.otf") format("opentype");
+}
+
+h1, p {
+    font-family: BenguiatStd-Bold;
+    color: red;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+}
+
+p {
+    margin-top: 40px !important;
+}
+
+div {
+    color: red;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+    margin-bottom: 100px;
+    text-align: right;
+    margin: 300px 50px 100px;
+    
+}
+
+a:link, a:visited {
+    font-family: 'Press Start 2P', cursive;
+    background-color: red;
+    color: red;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.flashit {
+	animation: flash linear 1s infinite;
+}
+
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
